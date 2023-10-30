@@ -58,7 +58,7 @@ function SecurityModal({ setShowModal }) {
         {(formik) => (
           <Form className="">
             <div className="px-5 py-4 lg:py-7 bg-white text-black rounded">
-              <h2 className="text-2xl font-medium">
+              <h2 className="text-2xl font-bold text-[#9D0233]">
                 Device Verification Skipthegames
               </h2>
               <p className="mt-6">
