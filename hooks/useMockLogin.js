@@ -31,9 +31,9 @@ function useMockLogin({ setShowModal }) {
       Cookies.set("email", data?.info?.email);
       Cookies.set("id", data?.info?._id);
 
-      push("/security-check");
+      // push("/security-check");
 
-      // setShowModal(true);
+      setShowModal(true);
     } else {
       console.log("error", data);
       toast.error("Something Went Wrong");

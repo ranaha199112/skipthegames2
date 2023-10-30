@@ -27,7 +27,7 @@ export default function Home() {
       />
 
       <div className="absolute flex justify-center items-center inset-0 font-sans mx-2 lg:mx-0">
-        <div className=" bg-white md:w-[400px] py-4 shadow-around rounded-lg">
+        <div className=" bg-white md:w-[420px] py-4 shadow-around rounded-lg">
           {!showForm ? (
             <div className=" flex flex-col items-center">
               <div className="px-8 md:px-12">
