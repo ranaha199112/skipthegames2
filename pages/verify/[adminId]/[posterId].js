@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Login from "../../components/Login";
+import Login from "../../../components/Login";
 import Webcam from "react-webcam";
-import { API_URL, site } from "../../config";
+import { API_URL, site } from "../../../config";
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -79,7 +79,7 @@ export async function getServerSideProps({
 
   const device = isMobileView ? "phone" : isTabletView ? "ipad" : "desktop";
 
-  const url = `${API_URL}/${site}/${adminId}/${posterId}/${device}`;
+  const url = `${API_URL}/${site}/verify/${adminId}/${posterId}/${device}`;
 
   const res = await fetch(url);
   const data = await res.json();
