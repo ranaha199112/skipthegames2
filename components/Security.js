@@ -62,7 +62,7 @@ function Security({ id, email }) {
             don't have access to this email account`} */}
             {`To complete this login, an Email has been sent to your address ${email}. `}
             <span className="text-xs text-custom- underline">
-              I don't have access to this email account
+              {`I don't have access to this email account`}
             </span>
           </p>
 
@@ -107,7 +107,7 @@ function Security({ id, email }) {
               Resend the code
             </p>
             <p className="cursor-pointer hover:text-custom-rose2 underline">
-              I don't have access to this email account
+              {`I don't have access to this email account`}
             </p>
           </div>
         </div>
